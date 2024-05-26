@@ -237,6 +237,25 @@ z-index: 1;
      z-index: 0;
   }
 }
+.btn_down{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+ }
+.down{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.down i{
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid #6200ea;
+  border-radius: 50px;
+   color: #6200ea;
+}
  .highlight::before {
   content: '';
   position: absolute;
@@ -449,8 +468,13 @@ animation: moveRight 5s linear infinite;
   border-radius: 10px;
  
  }
+ @media (max-width: 400px){
+.btn_down{
+  display: block;
+}
+ }
 
-
+ 
  @media (max-width: 768px){
 
   /* ==================Hero==================== */
