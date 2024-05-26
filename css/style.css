@@ -214,14 +214,8 @@ z-index: 1;
   position: relative;
 
 }
-.hero h1{
-  font-size: 40px;
-  font-weight: 800;
-}
-.hero p{
-  font-size: 30px;
-  font-weight: 800;
-}
+ 
+ 
 .hero .highlight {
   color: #ff4081;
   position: relative;
@@ -270,6 +264,7 @@ z-index: 1;
   font-weight: 400px;
   color: #5b5858;
   margin-bottom: 20px;
+  opacity: 0;
 }
 
 .left_grid .description_grid{
@@ -362,6 +357,7 @@ margin: 10px;
   font-size: 14px;
   font-weight: 500;
   margin-top: 50px;
+  opacity: 0;
 
 }
 
@@ -1153,4 +1149,8 @@ footer {
       
   }
 }
+
+
+
+
 
