@@ -30,6 +30,8 @@ a {
   color: unset;
 }
 
+
+
 .container{
   padding: 10px 80px;
   
@@ -382,6 +384,14 @@ gap: 20px;
 }
 .card_two{
   background: #2e8efe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+img{
+  width: 100%;
 
 }
  .bottom_grid{
