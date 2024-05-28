@@ -511,7 +511,7 @@ animation: moveRight 5s linear infinite;
 .btn_down{
   display: block;
 }
-.hero p{
+.banner p{
   font-size: 25px;
   font-weight: 600;
  
