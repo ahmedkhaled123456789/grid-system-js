@@ -12,6 +12,7 @@
     --black-70 : hsl(0, 0%, 30%);
     --box-shadow:0px 0px 20px rgb(0 0 0 / 10%);
     --img-color:  invert(1);
+    --color-1: #ffffff9e ;
 
   
   }
@@ -23,14 +24,12 @@
     --black-70 : hsl(0, 0%, 87%);
     --WHITE :  #000;
     --img-color:  invert(0);
-
     --border-color-1 : hsl(240, 9%, 30%);
     --border-color-2 : hsl(240, 9%, 25%);
     --shadow : 0 0 10px hsla(0, 0% ,0% , 0.08);
-  
     --box-shadow:0px 0px 20px hsl(240, 9%, 30%);
-    --BLACK : hsl(0, 0%, 100%)
-    ;
+    --BLACK : hsl(0, 0%, 100%);
+    --color-1: hsla(240, 9%, 19%, 0.784) ;
 
   }
   
@@ -176,7 +175,7 @@ z-index: 1;
     header .nav-links.active{
       z-index: 888;
       position: fixed;
-      background:#ffffff9e;
+      background:var(--color-1);
       top: 0;
       left: 0;
       width: 220px;
@@ -217,7 +216,7 @@ z-index: 1;
       background-size: 25px;
       background-position: center;
       transition: 0.3s ease;
-      filter: invert(1);
+      filter: var(--img-color);
     }
   }
 
